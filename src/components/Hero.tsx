@@ -19,19 +19,22 @@ export default function Hero() {
         className="absolute inset-0 w-full h-full"
       >
         <img
-          src="/images/mountain-landscape.jpg"
-          alt="Mountain landscape"
+          src="https://cdn.poehali.dev/projects/ff46df14-8db4-4763-a56b-b393f502f310/files/4e6d700b-756a-45ec-95c6-a2341065dd70.jpg"
+          alt="Уютное бельё для бабушек"
           className="w-full h-full object-cover"
         />
       </motion.div>
 
       <div className="relative z-10 text-center text-white">
         <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight mb-6">
-          ОТКРОЙ
+          УЮТНО
         </h1>
         <p className="text-lg md:text-xl max-w-2xl mx-auto px-6 opacity-90">
-          Исследуй границы дизайна с иммерсивным параллакс-эффектом
+          Нижнее бельё для зрелых женщин — мягкое, удобное, сшитое с заботой о каждой
         </p>
+        <button className="mt-8 bg-white text-black px-8 py-3 uppercase text-sm tracking-wide hover:bg-neutral-200 transition-colors duration-300 cursor-pointer">
+          Смотреть каталог
+        </button>
       </div>
     </div>
   );
